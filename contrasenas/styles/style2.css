@@ -1,0 +1,107 @@
+body{
+    background-image: url("Fondo.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    border-color: transparent;
+
+
+}
+
+h1{   
+    font-weight: bold;
+    text-align: left;
+    Color:rgba(209, 120, 48, 0.911);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    position:relative;
+    border-color: transparent;
+    text-align: left;
+    left:39px;
+    
+}
+
+h2{
+    text-align:left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(36, 74, 95);
+    text-align: left;
+}
+
+#form 
+{
+    background-color: rgb(119, 160, 184);
+    border-color: transparent;
+    color: rgb(36, 74, 95);
+    max-width: 100%;
+    min-width: 100px;
+    opacity: 80%;
+    text-align: left;
+    position:absolute;
+    top:60px;
+    left: 20px;
+    width:350px;
+    margin-top:10px;
+
+}
+#form2
+{
+    background-color: rgb(119, 160, 184);
+    border-color: transparent;
+    color: rgb(36, 74, 95);
+    max-width: 100%;
+    min-width: 100px;
+    opacity: 80%;
+    text-align: left;
+    position:absolute;
+    top:60px;
+    left:230px;
+    width:350px;
+    margin-top:10px;
+
+}
+#minimo, #maximo, #contrasena, #letra, #pos1, #pos2, #letra2, #contrasena2
+{ 
+    
+    background-color: rgba(209, 120, 48, 0.911);
+    color: black;
+    border-color: transparent;
+    opacity: 60%;
+
+
+}
+#comprobar, #comprobar2
+{   
+    color: rgb(83, 105, 134);
+    background-color: rgba(214, 180, 152, 0.911);
+    font-weight: bold;
+    text-decoration-style:double;
+    border-color: transparent;
+    margin-top: 30px;
+    border-radius: 10% ;
+    margin-bottom: center;
+    margin-left:40px;
+    width:120px;
+    height: 60px;
+
+}
+
+#reset, #reset2
+{   
+    color: rgba(214, 180, 152, 0.911);
+    background-color: rgb(83, 105, 134);
+    text-align: center;
+    border-radius: 10%;
+    height: 60px;
+    width:120px;
+    border-color: transparent;
+    margin-top: 30px;
+    margin-bottom: center;
+    margin-left:10px;
+    position: center;
+}
+
+#fieldset, #fieldset2 
+{
+    border-color: transparent;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+        <title>Contraseña</title>
+        <meta charset="utf-8"/>
+        <meta name="Comprobar contraseñas 1"/>
+        <link href="styles/style_2.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="javascript.js"></script> 
+
+
+    </head>
+    <body>  
+       
+        <br>
+        <h1 id="prueba" >Comprueba tu contraseña</h1>
+        <form id="form" action="./Formulario.php" name="contraseñas">
+            <div id="form">
+            <fieldset id="fieldset">
+                <p><h2> Método uno </h2></p><br>
+                <p for="valorminimo">Digito mínimo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" maxlength="2" name="minimo" id="minimo">
+                </input></p>
+                <p for="valormaximo">Dígito máximo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" maxlength="2" name="maximo" id="maximo">
+                </input></p>
+                <p for="letra">Letra &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="1" name="letra" id="letra">
+                </input></p>
+                <p for="pasword">Contraseña &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="60" name="contrasena"id="contrasena"></input>
+            </fieldset>
+            <button type="button" id="comprobar" class="comprobar" onclick="alerta()" > 
+                Validar contraseña
+            </button>
+            <button type="reset" id="reset">
+                Borrar <br>Datos
+            </button>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+        </form>
+
+        <form id="form2" action="./Formulario.php" name="contraseñas">
+            <div id="form2">
+            <fieldset id="fieldset2">
+                <p><h2> Método dos </h2></p><br>
+                <p for="posicion1">Primera posición &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" maxlength="2" name="pos1" id="pos1">
+                </input></p>
+                <p for="posicion2">Segunda posición&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" maxlength="2" name="pos2" id="pos2">
+                </input></p>
+                <p for="letra2">Letra &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="1" name="letra2" id="letra2">
+                </input></p>
+                <p for="pasword2">Contraseña &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="60" name="contrasena2"id="contrasena2"></input>
+            </fieldset>
+            <button type="button" id="comprobar2" class="comprobar2" onclick="alerta2()" > 
+                Validar contraseña
+            </button>
+            <button type="reset" id="reset2">
+                Borrar <br>Datos
+            </button>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+        </form>
+</body>
+</html>
